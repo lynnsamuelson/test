@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Daily Jouranl</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="./styles/main.css" />
+  </head>
+  <body>
+    <header class="header">
+      <img  class="siteLogo image--card" src="./images/fish.png" />
+      <h1 class="siteTitle">Daily Journal</h1>
+    </header>
+    <main id="container">
+      <div class="content--left">
+        <article class="journalEntries card">
+          <section class="entry">
+            <div class="entry__date">02/26/2021</div>
+            <div class="entry__mood">Sleepy</div>
+            <div class="entry__concepts">html, css, js</div>
+            <div class="entry__entry">Today we learned about using css to style and js to automate the html of data.</div>
+          </section>
+          <section class="entry">
+            <div class="entry__date">02/26/2021</div>
+            <div class="entry__mood">Sleepy</div>
+            <div class="entry__concepts">html, css, js</div>
+            <div class="entry__entry">Today we learned about using css to style and js to automate the html of data.</div>
+          </section>
+          <section class="entry">
+            <div class="entry__date">02/26/2021</div>
+            <div class="entry__mood">Sleepy</div>
+            <div class="entry__concepts">html, css, js</div>
+            <div class="entry__entry">Today we learned about using css to style and js to automate the html of data.</div>
+          </section>
+        </article>
+      </div>
+      <div class="content--right">
+        <aside class="form">
+          <form action="">
+            <fieldset>
+              <label for="journalDate">Date of Entry</label>
+              <input type="date" name="journalDate" id="journalDate" />
+              <label for="concepts">Date of Entry</label>
+              <input type="text" name="concepts" id="concepts" />
+              <select name="moods" id="moods">
+                <option value="happy">Happy</option>
+                <option value="sad">Sad</option>
+                <option value="confused">Confused</option>
+                <option value="stressed">Stressed</option>
+                <option value="sleepy">Sleepy</option>
+              </select>
+              <label for="entry">Journal Entry Text</label>
+              <textarea name="entry" id="entry"></textarea>
+            </fieldset>
+          </form>
+        </aside>
+      </div>
+      <footer>
+        <p>&copy;2021</p>
+        <p>Lynn Samuelson</p>
+        <a href="https://github.com/lynnsamuelson">github</a>
+      </footer>
+    </main>
+  </body>
+</html>
